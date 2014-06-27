@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>CSS Registration Form</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/default.css"/>
+    </head>
+    <body>  
+
+    <form action="./index.php?q=login" class="register" style="height:100px;">
+        <h1> Login </h1>
+        <fieldset class="row1">
+            <input type="text" name="user" placeholder="Username"/>
+            <input type="password" name="pass" placeholder="Password"/>       
+            <button class="button" style="margin-top:-1px;border-radius:5px;">Login &raquo;</button>
+            <input type="hidden" name="check" value="login" />
+        </fieldset>    
+    </form>
+
+        <form action="./index.php?q=register" class="register" style="height:300px;">
+            <h1>Sign Up</h1>
+            <fieldset class="row1">
+                <legend>Fresh Desk Account Details
+                </legend>
+                <p>
+                    <label>Company Name
+                    </label>
+                    <input type="text" name="company"/>
+                </p>
+                <p>    
+                    <label>Domain
+                    </label>
+                    <input type="text" name="domain"/>.freshdesk.com
+                </p>
+                <p>    
+                    <label>Freshdesk Username
+                    </label>
+                    <input type="text" name="fresh_user" placeholder="Email"/>
+                </p>
+                <p>
+                    <label>Freshdesk Password
+                    </label>
+                    <input type="password" name="fresh_pass_1"/>
+                </p>
+                <p>    
+                    <label>Repeat Password
+                    </label>
+                    <input type="password" name="fresh_pass_2"/>
+                </p>    
+            </fieldset>
+            <button class="button" style="float:right;border-radius:4px;margin-top:-59px;">Register &raquo;</button>
+            <input type="hidden" name="check" value="register" />
+        </form>
+    </body>
+</html>
+
+
+
+
+

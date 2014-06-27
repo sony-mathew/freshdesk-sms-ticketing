@@ -1,0 +1,64 @@
+stdClass Object
+(
+    [helpdesk_ticket] => stdClass Object
+        (
+            [cc_email] => stdClass Object
+                (
+                    [cc_emails] => Array
+                        (
+                        )
+
+                    [fwd_emails] => Array
+                        (
+                        )
+
+                )
+
+            [created_at] => 2014-02-09T00:46:01+05:30
+            [deleted] => 
+            [delta] => 1
+            [description] => If this is heavy then sms replies to the users will also be heavy.
+            [description_html] => <div>If this is heavy then sms replies to the users will also be heavy.</div>
+            [display_id] => 8
+            [due_by] => 2014-02-10T12:00:00+05:30
+            [email_config_id] => 
+            [frDueBy] => 2014-02-10T09:00:00+05:30
+            [fr_escalated] => 
+            [group_id] => 
+            [id] => 1001156583
+            [isescalated] => 
+            [notes] => Array
+                (
+                )
+
+            [owner_id] => 
+            [priority] => 4
+            [requester_id] => 1000603740
+            [responder_id] => 
+            [source] => 3
+            [spam] => 
+            [status] => 2
+            [subject] => testing the agent assignment [heavy]
+            [ticket_type] => Question
+            [to_email] => 
+            [trained] => 
+            [updated_at] => 2014-02-09T00:46:01+05:30
+            [urgent] => 
+            [status_name] => Open
+            [requester_status_name] => Being Processed
+            [priority_name] => Urgent
+            [source_name] => Phone
+            [requester_name] => Dude_o_yaar
+            [responder_name] => No Agent
+            [to_emails] => 
+            [custom_field] => stdClass Object
+                (
+                )
+
+            [attachments] => Array
+                (
+                )
+
+        )
+
+)

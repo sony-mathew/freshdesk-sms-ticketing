@@ -1,0 +1,49 @@
+{"note":{"body":"Man this is a new note added. to an existing one.","body_html":"\u003Cdiv\u003EMan this is a new note added. to an existing one.\u003C/div\u003E","created_at":"2014-02-27T15:44:59+05:30","deleted":false,"id":1001986227,"incoming":false,"private":false,"source":3,"updated_at":"2014-02-27T15:44:59+05:30","user_id":1000564957,"attachments":[]}}object(stdClass)#1 (1) {
+  ["note"]=>
+  object(stdClass)#2 (11) {
+    ["body"]=>
+    string(49) "Man this is a new note added. to an existing one."
+    ["body_html"]=>
+    string(60) "<div>Man this is a new note added. to an existing one.</div>"
+    ["created_at"]=>
+    string(25) "2014-02-27T15:44:59+05:30"
+    ["deleted"]=>
+    bool(false)
+    ["id"]=>
+    int(1001986227)
+    ["incoming"]=>
+    bool(false)
+    ["private"]=>
+    bool(false)
+    ["source"]=>
+    int(3)
+    ["updated_at"]=>
+    string(25) "2014-02-27T15:44:59+05:30"
+    ["user_id"]=>
+    int(1000564957)
+    ["attachments"]=>
+    array(0) {
+    }
+  }
+}
+stdClass Object
+(
+    [note] => stdClass Object
+        (
+            [body] => Man this is a new note added. to an existing one.
+            [body_html] => <div>Man this is a new note added. to an existing one.</div>
+            [created_at] => 2014-02-27T15:44:59+05:30
+            [deleted] => 
+            [id] => 1001986227
+            [incoming] => 
+            [private] => 
+            [source] => 3
+            [updated_at] => 2014-02-27T15:44:59+05:30
+            [user_id] => 1000564957
+            [attachments] => Array
+                (
+                )
+
+        )
+
+)

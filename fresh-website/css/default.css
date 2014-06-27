@@ -1,0 +1,254 @@
+*/*Set's border, padding and margin to 0 for all values*/
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+html {
+    height:100%;
+  width:100%;
+    background: url(../img/bg4.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+    color: #373C40;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    height: 100%;
+    //background-color: #f0f0f0;
+}
+body {
+    font-size: 70%;
+}
+p {
+    padding: 7px 0 7px 0;
+    font-weight: 500;
+    font-size: 10pt;
+}
+a {
+    color: #656565;
+    text-decoration:none;
+}
+a:hover{
+    color: #abda0f;
+    text-decoration: none;
+}
+h1 {
+    font-weight:200;
+    color: #888888;
+    font-size:16pt;
+    //background: transparent url(../img/h1.png) no-repeat center left;
+    padding-left:8px;
+    color: yellowgreen;
+    margin:7px 5px 8px 8px;
+}
+h4 {
+    padding:1px;
+    color: #ACACAC;
+    font-size:9pt;
+    font-weight:100;
+    text-transform:uppercase;
+}
+form
+        {
+            margin-bottom: 5%;
+            width :45%;
+            float :right;
+            margin-right: 4%;
+            opacity:0.8;
+        }
+
+#left-main
+        {
+            width:45%;
+            float:left;
+            height:100%;
+            margin-left: 4%;
+            //border:1px solid white;
+            overflow: hidden;
+        }   
+
+#right-main
+        {   
+            padding-top: 5%;
+            width:45%;
+            float:right;
+            height:100%;
+            margin-right: 4%;
+            //border:1px solid white;
+            overflow: hidden;
+         //   border: 1px solid white;
+            margin-bottom: -5%;
+        }           
+
+form.register{
+    width:550px;
+    overflow: hidden;
+    background-color:#fff;
+    padding:5px;
+    border-radius: 10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+form p{
+    font-size: 13pt;
+    clear:both;
+    margin: 0;
+    color:gray;
+    padding:4px;
+}
+form.register fieldset.row1
+{
+    padding:5px;
+    float:left;
+    border-top:1px solid #F5F5F5;
+    margin-bottom:15px;
+}
+form.register fieldset.row1 p{
+        margin-top: 30px;
+    }   
+
+form.register fieldset.row1 label{
+
+    float: left;
+    text-align: right;
+    margin-right: 6px;
+    margin-top:2px;
+}
+form.register legend
+{
+    color: #abda0f;
+    padding:2px;
+    margin-left: 14px;
+    font-weight:bold;
+    font-size: 15px;
+    font-weight:100;
+}
+form.register label{
+    color:#444;
+    width:200px;
+    float: left;
+    text-align: right;
+    margin-right: 6px;
+    margin-top:2px;
+}
+form.register label.obinfo{
+    float:right;
+    padding:3px;
+    font-style:italic;
+}
+form.register input{
+    width: 180px;
+    color: #505050;
+    float: left;
+    margin-right: 5px;
+    border-radius:5px;
+    font-family: Lucida Sans,Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-left:5px;
+}
+form.register input.long{
+    width: 247px;
+    color: #505050;
+}
+form.register input.short{
+    width: 40px;
+    color: #505050;
+}
+form.register label.gender{
+    margin-top:-1px;
+    margin-bottom:2px;
+    width:34px;
+    float:left;
+    text-align:left;
+    line-height:19px;
+}
+form.register input[type=text]
+{
+    border: 1px solid #E1E1E1;
+    height: 30px;    
+}
+form.register input[type=password]
+{
+    border: 1px solid #E1E1E1;
+    height: 30px;
+}
+.button
+{
+    background: #abda0f url(../img/overlay.png) repeat-x;
+    padding: 8px 10px 8px;
+    color: #fff;
+    text-decoration: none;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    cursor: pointer;
+    float:left;
+    font-size:18px;
+    margin:10px;
+}
+form.register input[type=text].year
+{
+    border: 1px solid #E1E1E1;
+    height: 18px;
+    width:30px;
+}
+form.register input[type=checkbox] {
+    width:14px;
+    margin-top:4px;
+}
+form.register select
+{
+    border: 1px solid #E1E1E1;
+    width: 130px;
+    float:left;
+    margin-bottom:3px;
+    color: #505050;
+    margin-right:5px;
+}
+form.register select.date
+{
+    width: 40px;
+}
+input:focus, select:focus{
+    background-color: #efffe0;
+}
+p.info{
+    font-size:7pt;
+    color: gray;
+}
+p.agreement{
+    margin-left:15px;
+}
+p.agreement label{
+    width:390px;
+    text-align:left;
+    margin-top:3px;
+}
+
+
+
+.support
+{
+    width:10%;
+    margin-top: -70px;
+    padding-left: 150px;
+    font-size: 20px;
+
+}
+
+#fd
+        {
+          color:green;
+          overflow: hidden;
+       //   border: 1px solid red;
+          width:100%;
+          height:90%;
+    //      margin-top: 40px;
+          padding-top: 60px;
+        }

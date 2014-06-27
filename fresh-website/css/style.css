@@ -1,0 +1,166 @@
+#right-main,#left-main
+	{
+	//	border: 1px solid black;
+		color:white;
+		font-family: verdana;
+	}
+
+.header1 
+	{
+		margin-top : 20px;
+		padding: 20px;
+		background: teal;
+		font-family: verdana;
+		font-size: 60px;
+		color: white;
+	}
+
+.sheet	
+	{
+		margin-top: 30px;
+		width:100%;
+		overflow: hidden;
+	//	border:1px solid green;
+	}
+
+.total-sms
+	{	
+		width: 15%;
+		padding: 30px;
+		font-size: 40px;
+		background:deepskyblue;
+		opacity: 0.7;
+		float:left;
+	//	border:1px solid red;
+	}
+
+.total-text
+	{
+		width: 60%;
+		padding: 30px;
+		font-size: 40px;
+		background: lightseagreen;
+		opacity: 0.7;
+		float:right;
+	//	border:1px solid red;
+	}	
+
+.box-left
+	{
+		float:left;
+		width:48%;
+	//	border:1px solid grey;
+	}	
+.box-right
+	{
+		float:right;
+		width:45%;
+	//	border:1px solid grey;
+	}	
+
+.left-left
+	{
+		float: left;
+		width: 45%;
+	//	border: 1px solid yellow;
+	}	
+
+.stat-sms-left
+	{
+		width:80%;
+		background:dodgerblue;
+		font-size: 30px;
+		text-align: center;
+		padding:20px;
+		border-radius: 8px 8px 0px 0px; ;
+	}	
+
+.stat-text-left
+	{
+		width:80%;
+		background:teal;
+		font-size: 18px;
+		text-align: center;
+		padding:20px;
+		border-radius: 0px 0px 8px 8px; ;
+	}		
+
+.lane
+	{
+		width:100%;
+	//	border:1px solid goldenrod;
+		overflow: hidden;
+		margin-bottom: 10px;
+		text-align: center;
+	}	
+
+.stat-sms-right
+	{
+		width: 20%;
+		float:left;
+		padding:14px;
+		font-size: 16px;
+		background: blueviolet;
+		border-radius: 8px 0px 0px 8px; ;
+	}
+
+.stat-text-right	
+	{	
+		width: 55%;
+		float:right;
+		padding:14px;
+		font-size: 16px;
+		background: cornflowerblue;
+		border-radius: 0px 8px 8px 0px; ;
+	}
+
+.users-numbers
+	{	
+		width: 100%;
+		padding: 15px;
+		font-size: 30px;
+		background: darkslateblue;
+		float:left;
+	//	border:1px solid red;
+		border-radius: 10px 10px 10px 10px; ;
+		opacity:0.8;
+	}
+
+.users-text
+	{
+		width: 55%;
+		padding: 15px;
+		padding-top: 9%;
+		font-size: 20px;
+		//background: yellowgreen;
+		float:right;
+	//	border:1px solid red;
+	}
+.log
+	{	
+		padding:20px;
+		background:cadetblue;
+		border-radius: 8px;
+		font-size: 20px;
+		opacity: 0.5;
+		cursor: pointer;
+	}
+
+.logout
+	{	
+		float : right;
+		border: 1px solid grey;
+		padding:10px;
+		font-size: 16px;
+		color:black;
+		margin-top: -50px;
+		margin-right: 25px;
+		border-radius:8px; 
+	}
+
+.logout:hover
+	{
+		background:darkslateblue;
+		opacity:0.5;
+		color:white;
+	}

@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>FreshDesk SMS Portal Landing</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/default.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <meta name="content" description="This is a portal for freshdesk users to add SMS query for their customers.">
+        <meta name="content" description="freshdesk sms portal, freshdesk through sms, sms and freshdesk">
+    </head>
+    <body style="overflow:hidden;"> 
+
+        <div id="left-main" style="overflow:hidden;">
+                <div class="header1"> Statistics </div>
+                
+                <div class="sheet">
+                    <div class="total-sms">{total-sms}</div>
+                    <div class="total-text"> SMS Queries </div>
+                </div> 
+
+                <div class="sheet">
+                    <div class="box-left">
+                        <div class="left-left" style="margin-right:25px;">
+                            <div class="stat-sms-left"> {tickets-created} </div>
+                            <div class="stat-text-left"> Tickets Created </div>
+                        </div>
+                        <div class="left-left">
+                            <div class="stat-sms-left"> {average-sms} </div>
+                            <div class="stat-text-left"> Avg. SMS/User </div>
+                        </div>
+                    </div>
+                    <div class="box-right">
+                        <div class="lane">
+                            <div class="stat-sms-right"> {tikcets-status} </div>
+                            <div class="stat-text-right"> Status Queries </div>
+                        </div>
+                        <div class="lane">
+                            <div class="stat-sms-right"> {tikcets-chat} </div>
+                            <div class="stat-text-right"> Chat Queries </div>
+                        </div>
+                        <div class="lane">
+                            <div class="stat-sms-right"> {tikcets-reply} </div>
+                            <div class="stat-text-right"> Reply Queries </div>
+                        </div>
+                    </div>
+                </div>
+                   
+                <div class="sheet">
+                    <div class="box-left">
+                        <div class="users-numbers">{total-users} Unique Users</div>
+                        <!--
+                        <div class="users-text"> Unique Users</div> -->
+                    </div>
+                    <div class="box-right">    
+                        <a href="./index.php?q=sms_log"><div class="log"> View the SMS Log </div></a>
+                    </div>    
+                </div>
+        </div> 
+
+        <div id="right-main">
+
+            <a href="./index.php?q=logout"> <div class="logout"> Logout</div> </a>
+            <form action="./index.php?update=new" method="post" class="register" style="height:350px;">
+                <h1>Welcome {user}</h1>
+                <fieldset class="row1">
+                    <p style="margin-top:4px;">
+                        <label></label>
+                    </p>
+                    <p style="padding-left:25px;padding-right:25px;">    
+                        Your registered domain is 
+                        {domain}.freshdesk.com
+                    </p>
+                    <p style="padding-left:25px;padding-right:25px;">
+                        If you have changed your freshdesk password please change it here too.
+                    </p>
+                    <p>
+                        <label>Freshdesk Password</label>
+                        <input type="password" name="fresh_pass" maxlength="15" />
+                    </p>
+                </fieldset>
+                <button class="button" style="float:right;border-radius:4px;margin-top:-59px;">Update &raquo;</button>
+                <input type="hidden" name="check" value="register" />
+            </form>
+        </div>    
+    </body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>FreshDesk SMS Portal</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/default.css"/>
+        <meta name="content" description="This is a portal for freshdesk users to add SMS query for their customers.">
+        <meta name="content" description="freshdesk sms portal, freshdesk through sms, sms and freshdesk">
+    </head>
+    <body> 
+
+        <div id="left-main">
+            <div>
+                <img src="./img/fd_support.jpg" style="border-radius:5px;margin-top:11%; float:left;opacity:0.5"/>
+                <div id="fd">
+                    <img src="./img/fd_logo2.png" style="width:50%;border-radius:5px;margin-top:20px; float:left;background:white;opacity:0.6;padding:10px;"/>
+                    <div style="float:right;color:white;display:inline-block;width:45%;margin-top:10px;"> 
+                        <p style="font-size:20px;">with new</p>
+                        <p style="font-size:60px;margin-top:-2px;">SMS</p>
+                        <div class="support">Support Desk</div>
+                    </div>
+                </div>    
+            </div>    
+
+        </div> 
+
+        <div id="right-main">
+            <form action="./index.php?login=old" method="post" class="register" style="height:120px;margin-bottom:10%;">
+                <h1> Login </h1>
+                <p style="padding-left:25px;padding-right:25px;"> {message}</p>
+                <fieldset class="row1" style="border-top:0px;padding-left:20px;">
+                    <input type="text" name="user" placeholder="Username"/>
+                    <input type="password" name="pass" placeholder="Password"/>       
+                    <button class="button" style="margin-top:-1px;border-radius:5px;">Login &raquo;</button>
+                    <input type="hidden" name="check" value="login" />
+                </fieldset>    
+            </form>
+
+                <form action="./index.php?register=new" method="post" class="register" style="min-height:305px;overflow:hidden;">
+                    <h1>Sign Up</h1>
+                    <fieldset class="row1">
+                        <legend>Fresh Desk Account Details
+                        </legend>
+                        <p>
+                            <!--{register-message}-->
+                        </p>
+                        <p style="margin-top:4px;">
+                            <label>Company Name
+                            </label>
+                            <input type="text" name="company" maxlength="80" />
+                        </p>
+                        <p>    
+                            <label>Domain
+                            </label>
+                            <input type="text" name="domain" maxlength="50" />.freshdesk.com
+                        </p>
+                        <p style="margin-top:0px;">    
+                            <label>Freshdesk Username
+                            </label>
+                            <input type="text" name="fresh_user" placeholder="Email" maxlength="50" />
+                        </p>
+                        <p>
+                            <label>Freshdesk Password
+                            </label>
+                            <input type="password" name="fresh_pass_1" maxlength="15" />
+                        </p>
+                        <p>    
+                            <label>Repeat Password
+                            </label>
+                            <input type="password" name="fresh_pass_2" maxlength="15" />
+                        </p>    
+                    </fieldset>
+                    <button class="button" style="float:right;border-radius:4px;margin-top:-59px;">Register &raquo;</button>
+                    <input type="hidden" name="check" value="register" />
+                </form>
+        </div>    
+    </body>
+</html>

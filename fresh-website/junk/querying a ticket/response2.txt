@@ -1,0 +1,126 @@
+stdClass Object
+(
+    [helpdesk_ticket] => stdClass Object
+        (
+            [cc_email] => stdClass Object
+                (
+                    [cc_emails] => Array
+                        (
+                        )
+
+                    [fwd_emails] => Array
+                        (
+                        )
+
+                )
+
+            [created_at] => 2014-02-09T00:20:26+05:30
+            [deleted] => 
+            [delta] => 1
+            [description] => If this pop ups in dashboard then creating ticket using php script is a success.(Setting priorities and source type using script)
+            [description_html] => <div>If this pop ups in dashboard then creating ticket using php script is a success.(Setting priorities and source type using script)</div>
+            [display_id] => 6
+            [due_by] => 2014-02-11T11:00:00+05:30
+            [email_config_id] => 
+            [frDueBy] => 2014-02-10T12:00:00+05:30
+            [fr_escalated] => 
+            [group_id] => 
+            [id] => 1001156375
+            [isescalated] => 
+            [notes] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [note] => stdClass Object
+                                (
+                                    [body] => Hi Again_priority, 
+ Nice to work with you and you are so close..!!  Ticket: http://forwork.freshdesk.com/helpdesk/tickets/6
+                                    [body_html] => <div></div>
+<div>
+<div>Hi Again_priority,</div>
+<div>Nice to work with you and you are so close..!!<br><br>Ticket: <a href="http://forwork.freshdesk.com/helpdesk/tickets/6">http://forwork.freshdesk.com/helpdesk/tickets/6</a><br>
+</div>
+</div>
+                                    [created_at] => 2014-02-09T00:30:31+05:30
+                                    [deleted] => 
+                                    [id] => 1001429930
+                                    [incoming] => 
+                                    [private] => 
+                                    [source] => 0
+                                    [updated_at] => 2014-02-09T00:30:31+05:30
+                                    [user_id] => 1000564957
+                                    [attachments] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [note] => stdClass Object
+                                (
+                                    [body] => Hi Again_priority, 
+   
+ I wanted to ask you some thing.. if this goe son again and again 
+ What to do and how to parse.? 
+ Just trying all possibilities..!!  Ticket: http://forwork.freshdesk.com/helpdesk/tickets/6
+                                    [body_html] => <div></div>
+<div>
+<div>Hi Again_priority,</div>
+<div><br></div>
+<div>I wanted to ask you some thing.. if this goe son again and again</div>
+<div>What to do and how to parse.?</div>
+<div>Just trying all possibilities..!!<br><br>Ticket: <a href="http://forwork.freshdesk.com/helpdesk/tickets/6">http://forwork.freshdesk.com/helpdesk/tickets/6</a><br>
+</div>
+</div>
+                                    [created_at] => 2014-02-09T00:33:25+05:30
+                                    [deleted] => 
+                                    [id] => 1001429939
+                                    [incoming] => 
+                                    [private] => 
+                                    [source] => 0
+                                    [updated_at] => 2014-02-09T00:33:25+05:30
+                                    [user_id] => 1000564957
+                                    [attachments] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [owner_id] => 
+            [priority] => 3
+            [requester_id] => 1000603416
+            [responder_id] => 1000564957
+            [source] => 3
+            [spam] => 
+            [status] => 2
+            [subject] => Setting priorities and source type using script
+            [ticket_type] => Question
+            [to_email] => 
+            [trained] => 
+            [updated_at] => 2014-02-09T00:33:25+05:30
+            [urgent] => 
+            [status_name] => Open
+            [requester_status_name] => Being Processed
+            [priority_name] => High
+            [source_name] => Phone
+            [requester_name] => Again_priority
+            [responder_name] => Sony Mathew
+            [to_emails] => 
+            [custom_field] => stdClass Object
+                (
+                )
+
+            [attachments] => Array
+                (
+                )
+
+        )
+
+)
